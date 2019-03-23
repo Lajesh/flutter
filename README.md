@@ -32,8 +32,11 @@ To install and run Flutter seamlessly, the development machine should have the f
 2. Extract the dowload package and unzip it to the desired location.
 
 3. Add flutter tool and Android SDK path to the PATH variable. For doing this open terminal and type the below command. 
+   
    ``` touch ~/.bash_profile; open ~/.bash_profile ```
+   
    This will open the bash_profile, now we have to add the following paths in the file.
+   
    ```export PATH=/Users/lajesh/Documents/SDKs/flutter/bin:$PATH ```
    ```export PATH=/Applications/SDK/:$PATH ``` (Update with the actual path)
    
