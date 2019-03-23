@@ -23,5 +23,22 @@ To install and run Flutter seamlessly, the development machine should have the f
 
 # Flutter SDK Installation
 
-Download the latest stable release of flutter SDK from the below URL.
-https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.2.1-stable.zip
+1. Download Android studio and install all the required SDKs and tools.
+   https://developer.android.com/studio
+
+1. Download the latest stable release of flutter SDK from the below URL.
+   https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.2.1-stable.zip
+
+2. Extract the dowload package and unzip it to the desired location.
+
+3. Add flutter tool and Android SDK path to the PATH variable. For doing this open terminal and type the below command. 
+   ``` touch ~/.bash_profile; open ~/.bash_profile ```
+   This will open the bash_profile, now we have to add the following paths in the file.
+   ```export PATH=/Users/lajesh/Documents/SDKs/flutter/bin:$PATH ```
+   ```export PATH=/Applications/SDK/:$PATH ``` (Update with the actual path)
+   
+   Once the above paths are added, close the file which will ask you to save the changes. Save the changes and return back to    terminal.
+ 
+    
+ 
+
