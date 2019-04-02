@@ -41,6 +41,12 @@ To install and run Flutter seamlessly, the development machine should have the f
       ```export PATH=/Applications/SDK/:$PATH ``` (Update with the actual path)
    
       Once the above paths are added, close the file which will ask you to save the changes. Save the changes and return back       to terminal.
+      
+      Now run the below command, which will check all the dependencies required for Flutter setup. Incase if some of the dependencies are not there. It will give you information on how to solve those issues.
+      
+      ``` flutter doctor ```
+      
+      Happy Coding :)
  
     
  
